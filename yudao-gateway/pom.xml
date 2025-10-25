@@ -41,6 +41,11 @@
         </dependency>
 
         <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>com.github.xiaoymin</groupId> <!-- 接口文档 -->
             <artifactId>knife4j-gateway-spring-boot-starter</artifactId>
         </dependency>
@@ -73,6 +78,12 @@
         <dependency>
             <groupId>com.google.guava</groupId>
             <artifactId>guava</artifactId>
+        </dependency>
+
+        <dependency>
+            <!-- 必须引入，否则会有 https://gitee.com/yudaocode/yudao-cloud-mini/issues/IB5PXW 告警 -->
+            <groupId>com.github.ben-manes.caffeine</groupId>
+            <artifactId>caffeine</artifactId>
         </dependency>
     </dependencies>
 
